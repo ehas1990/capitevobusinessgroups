@@ -1,0 +1,271 @@
+.link-box
+{
+  
+    position: relative;
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #00325d;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#sepia img {
+    -webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+#sepia:hover img {
+	
+
+    -webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.service-block-one .icon-box
+{
+    text-align: center;
+}
+
+.fa-solid, .fas ,fa {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #00325d !important;
+}
+.title ,h2 {
+    position: relative;
+    font-weight: normal;
+    margin: 0px;
+    background: none;
+    line-height: 1.6em;
+    font-family: 'Hind Guntur', sans-serif;
+    color: #00325d;
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+}
+footer ,.main-footer
+{
+    color: #8baad6;
+    background: #00325d !important;
+    font-size: 16px !important;
+    margin-top: -13px;
+}
+.main-footer .links li a
+
+{
+    color: #8baad6 !important;
+}
+.main-footer .info-widget li
+{
+    color: #8baad6 !important;
+}
+.btn:not(.disabled) {
+    cursor: pointer;
+    display: contents;
+  
+}
+
+/*  */
+
+.SS18-container{
+    height:100%;
+   overflow:auto;
+   
+ }
+ 
+ 
+ #SS18-anchor
+  {
+       overflow: hidden;
+       display: inline-block;
+       width: calc(33.33% -  1.0416666666666667vW);
+       max-width:620px;
+       height:auto;
+       float: left;
+ }
+ 
+ .SS18-first {
+       margin-top: 0.78125vW;
+       margin-bottom: 0.78125vW;
+       margin-left: 0.78125vW;
+       margin-right:0.36458333333333337vW; 
+ }
+ 
+ .SS18-second {
+       margin-top: 0.78125vW;
+       margin-bottom: 0.78125vW;
+       margin-left:0.36458333333333337vW;
+       margin-right:0.36458333333333337vW; 
+ }
+ 
+ .SS18-third {
+       margin-top: 0.78125vW;
+       margin-bottom: 0.78125vW;
+       margin-left:0.36458333333333337vW;
+       margin-right: 0.78125vW;
+ }
+ 
+ .SS18-caption h1 {
+       font-size: 2vW;
+       font-weight:900;
+       line-height:1vW;
+       color:#00325d ;
+       letter-spacing:0.1vw;
+       text-transform: uppercase;
+       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ }
+ 
+ .SS18-caption h4 {
+       font-size: 1vW;
+       font-weight:300;
+       letter-spacing:0.1vw;
+       text-transform: uppercase;
+       font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .SS18-caption h5 {
+       font-size: 0.65vW;
+       font-weight:300;
+       letter-spacing:0.1vw;
+       text-transform: uppercase;
+       margin-top:16.5vW;
+       font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .SS18-container figure {
+       position: relative;
+       background-color: #000;
+ }
+ 
+ .SS18-figureimg {
+       width: 100%;
+       display: block;
+       position: relative;
+ }
+ 
+ .SS18-container figcaption {
+       position: absolute;
+       top: 35%;
+       left: 0;
+       width: 100%;
+       text-align: center;
+       opacity: 0;
+       color:#00325d ;
+ }
+ 
+ .SS18-figureimg {
+       opacity: 1;
+       -webkit-transition: all .8s ease;
+       -moz-transition: all .8s ease;
+       transition: all .8s ease;
+ }
+ 
+ .SS18-container figure  figcaption{
+       opacity: 1;
+ }
+ 
+ #SS18-anchor:hover .SS18-figureimg {
+       transform: scale(1.15);
+    opacity: 0.4;
+       -webkit-transition: all .8s ease;
+       -moz-transition: all .8s ease;
+       transition: all .8s ease;
+ }
+ 
+ .SS18-figure {
+       margin: 0;
+ }
+ 
+ @media only screen and (max-width: 480px) {
+ 
+ #SS18-anchor {
+       display: block;
+       width: calc(100% -  6.25vw);
+ }
+ 
+ .SS18-first {
+       margin-left:3.125vw ;
+       margin-right:3.125vw ;
+       margin-top: 3.125vw;
+       margin-bottom: 1.4583333333333335vw; 
+ }
+ 
+ .SS18-second {
+       margin-left:3.125vw ;
+       margin-right:3.125vw ;
+       margin-top: 1.4583333333333335vw;
+       margin-bottom: 1.4583333333333335vw;  
+ }
+ 
+ .SS18-third {
+       margin-left:3.125vw ;
+       margin-right:3.125vw ;
+       margin-top: 1.4583333333333335vw;
+       margin-bottom: 3.125vw; 
+ } 
+ 
+ .SS18-caption h1 {
+       font-size: 6vW;
+       font-weight:900;
+       line-height:3vW;
+       letter-spacing:0.3vw;
+       text-transform: uppercase;
+       font-family: 'Open Sans', sans-serif;
+       color: #00325d ;
+ }
+ 
+ .SS18-caption h4 {
+       font-size: 3vW;
+       font-weight:300;
+       letter-spacing:0.3vw;
+       text-transform: uppercase;
+       font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .SS18-caption h5 {
+       font-size: 2vW;
+       font-weight:300;
+       letter-spacing:0.3vw;
+       margin-top:50vW;
+       text-transform: uppercase;
+       font-family: 'Open Sans', sans-serif;
+ } 
+ }  
+ 
+.fa-color
+{
+      color: #ffff !important;
+}
+.auto-container h1{
+      color: #ffff !important;
+}
+.sec-title h1{
+      color: #00325d !important ;
+}
+.main-footer .info-widget li .txt {
+      position: relative;
+      float: left;
+      /* width: 70%; */
+      margin-left: 30px !important;
+      margin-top: -24px !important;
+  }
+
+  .text-highlight
+  {
+        color: #00325d;
+  }
+ /*  */
+ 
+.header .lead {
+      max-width: 620px;
+    }
+    
+    /** Below CSS is completely optional **/
+    
+    .gallery-container > a {
+      max-width: 200px;
+      max-height: 150px;
+      padding: 5px;
+      disply: inline-block;
+    }
+    
+    

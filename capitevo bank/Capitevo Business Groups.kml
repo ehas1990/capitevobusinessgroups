@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Capitevo Business Groups</name>
+    <NetworkLink>
+      <name>Capitevo Business Groups</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1Hz0Do_Ytp8XoXl3m4DynAYYDwwFINo9E&lid=D2k52N6r4ZA]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
